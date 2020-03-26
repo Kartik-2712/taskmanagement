@@ -1,0 +1,15 @@
+{
+    "port": "8003",
+    "jwtKey": "25aa35fb-e362-42cd-9a3c",
+    "db": {
+        "name": "tododatabase",
+        "collectionNames": {
+            "user": "users",
+            "task": "tasks",
+            "expirytask": "completedtasks"
+        }
+    },
+    "mail": {
+        "service": "Gmail"
+    }
+}
